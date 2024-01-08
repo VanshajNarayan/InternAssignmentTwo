@@ -1,5 +1,9 @@
 .firstDraft{
   background-color: #0F1035;
+  margin: 2rem;
+  border-radius: 10px 10px;
+  box-shadow: 5px 5px 5px #DCF2F1;
+  padding: 0.3rem;
 }
 
 .firstDraft .requisition{

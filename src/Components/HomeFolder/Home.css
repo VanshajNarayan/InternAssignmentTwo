@@ -1,4 +1,5 @@
 .home_Section{
+  position: relative;
   max-width: 100rem;
   margin: 3rem auto;
   padding: 1rem;
@@ -23,23 +24,26 @@
 .home_Section .pageContainer{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .home_Section .pageContainer .formPart{
+  height: fit-content;
   padding: 0rem 2rem 2rem 2rem;
 }
 
 .home_Section .pageContainer .draftPart{
   background-color: #DCF2F1;
-  padding: 2rem;
+  border-radius: 10px 10px;
 }
 
 .home_Section .buttons_div{
+  position: absolute;
+  bottom: 27%;
   max-width: 46rem;
   padding: 0.1rem;
-  margin: 2rem 1rem 2rem 1rem;
   text-align: end;
+  width: 100%;
 }
 
 .home_Section .buttons_div .prevBtn{
@@ -64,4 +68,20 @@
   font-size: 1.2rem;
   font-weight: 700;
   cursor: pointer;
+}
+
+@media(width <= 1322px){
+  .home_Section .buttons_div{
+    position: absolute;
+    bottom: 27%;
+    right: 57%;
+  }
+}
+
+@media(width <= 603px){
+  .home_Section .buttons_div{
+    position: absolute;
+    bottom: 54%;
+    right: 5%;
+  }
 }
