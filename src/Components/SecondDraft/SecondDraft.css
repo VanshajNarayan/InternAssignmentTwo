@@ -1,0 +1,34 @@
+.reuisition_details{
+  background-color: #fff;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.reuisition_details h3{
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #444957;
+  margin-bottom: 0.6rem;
+  letter-spacing: 0.1rem;
+}
+
+.reuisition_details .box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reuisition_details .box .urgency .urgencyPara, .reuisition_details .box .genderPara{
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(154, 148, 148);
+}
+
+.reuisition_details .box .urgency .dataUrgency, .reuisition_details .box .gender .dataGender{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #444957;
+  letter-spacing: 0.1rem;
+  margin-top: 0.3rem
+}

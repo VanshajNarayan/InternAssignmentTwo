@@ -1,0 +1,54 @@
+.interview_Setting{
+  background-color: #fff;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.interview_Setting h3{
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #444957;
+  margin-bottom: 0.6rem;
+  letter-spacing: 0.1rem;
+}
+
+.interview_Setting .durationAndLang{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.interview_Setting .durationAndLang .duration .durationPara, .interview_Setting .durationAndLang .lang .LangPara{
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(154, 148, 148);
+}
+
+.interview_Setting .durationAndLang .duration .durationTitle, .interview_Setting .durationAndLang .lang .dataLang{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #444957;
+  letter-spacing: 0.1rem;
+  margin-top: 0.3rem
+}
+
+.interview_Setting .mode{
+  margin-top: 1rem;
+}
+
+
+.interview_Setting .mode .modePara{
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(154, 148, 148);
+}
+
+.interview_Setting .mode .datamode{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #444957;
+  letter-spacing: 0.1rem;
+  margin-top: 0.3rem
+}
+

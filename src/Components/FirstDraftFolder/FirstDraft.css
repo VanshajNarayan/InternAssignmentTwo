@@ -1,0 +1,29 @@
+.firstDraft{
+  background-color: #0F1035;
+}
+
+.firstDraft .requisition{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.firstDraft .requisition .requisition_head{
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  color: #fff;
+}
+
+.firstDraft .requisition .opening{
+  font-size: 1.3rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  color: #fff;
+}
+
+.firstDraft .requisition .opening span{
+  font-size: 1.5rem;
+  font-weight: 700;
+}

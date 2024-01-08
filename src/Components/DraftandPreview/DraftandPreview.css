@@ -1,0 +1,30 @@
+.draftandpreview{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.draftandpreview .draft{
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-style: italic;
+  text-transform: capitalize;
+  color: #0F1035;
+}
+
+.draftandpreview .preview{
+  font-size: 1.7rem;
+  font-weight: 600;
+  font-style: italic;
+  text-transform: capitalize;
+  color: #0F1035;
+  background-color: red;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 20px 0px;
+  -webkit-border-radius: 20px 0px;
+  -moz-border-radius: 20px 0px;
+  -ms-border-radius: 20px 0px;
+  -o-border-radius: 20px 0px;
+}

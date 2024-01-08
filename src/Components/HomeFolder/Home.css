@@ -1,0 +1,67 @@
+.home_Section{
+  max-width: 100rem;
+  margin: 3rem auto;
+  padding: 1rem;
+}
+
+.home_Section .headingDiv{
+  margin-bottom: 3rem;
+}
+
+.home_Section .headingDiv .heading{
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #444957;
+}
+
+.home_Section .hr{
+  border: 0.5px solid #444957;
+  margin-top: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.home_Section .pageContainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 1rem;
+}
+
+.home_Section .pageContainer .formPart{
+  padding: 0rem 2rem 2rem 2rem;
+}
+
+.home_Section .pageContainer .draftPart{
+  background-color: #DCF2F1;
+  padding: 2rem;
+}
+
+.home_Section .buttons_div{
+  max-width: 46rem;
+  padding: 0.1rem;
+  margin: 2rem 1rem 2rem 1rem;
+  text-align: end;
+}
+
+.home_Section .buttons_div .prevBtn{
+  background: #DCF2F1;
+  color: #0f1627;
+  border: none;
+  outline: none;
+  padding: 0.7rem 0.9rem;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.home_Section .buttons_div .nextBtn{
+  background: rgb(211, 3, 3);
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 0.7rem 0.9rem;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+}

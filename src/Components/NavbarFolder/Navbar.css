@@ -1,0 +1,25 @@
+.navbar_Section{
+  padding: 1rem;
+  max-width: 50rem;
+}
+
+.navbar_Section ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar_Section ul li a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  color: #444957;
+}
+
+.navbar_Section ul li .active{
+  color: blue;
+  padding-bottom: 1.7rem;
+  border-bottom: 2px solid blue;
+  transition: all 0.6s linear;
+}

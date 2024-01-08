@@ -1,0 +1,52 @@
+.job_details{
+  background-color: #fff;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.job_details h3{
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #444957;
+  margin-bottom: 0.6rem;
+  letter-spacing: 0.1rem;
+}
+
+.job_details .titleAndDetail{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job_details .titleAndDetail .title .titlePara, .job_details .titleAndDetail .details .detailsPara{
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(154, 148, 148);
+} 
+
+.job_details .titleAndDetail .title .dataTitle, .job_details .titleAndDetail .details .dataDetails{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #444957;
+  letter-spacing: 0.1rem;
+  margin-top: 0.3rem
+} 
+
+.job_details .location{
+  margin-top: 1rem;
+}
+
+.job_details .location .locationPara{
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(154, 148, 148);
+}
+
+.job_details .location .dataLocation{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #444957;
+  letter-spacing: 0.1rem;
+  margin-top: 0.3rem
+}
